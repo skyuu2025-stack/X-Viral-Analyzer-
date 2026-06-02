@@ -1,11 +1,14 @@
-"use client";
-
-import React from 'react';
-
-export default function Page() {
-  return (
-    <div style={{ background: '#0f172a', color: 'white', minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-      <h1>GeaTalent X-Analyzer 正在部署中...</h1>
-    </div>
-  );
+{
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "@google/generative-ai": "^0.11.4",
+    "lucide-react": "^0.378.0"
+  }
 }
